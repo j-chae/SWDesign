@@ -53,39 +53,17 @@
 					<div class="form-group">
 						<input type="text" class="form-control" placeholder="Name" name="userName" maxlength="20">
 					</div>
-					<div class="form-group" style="text-align: center;">
-						<div class="btn-grup" data-toggle="buttons">
-							<label class="btn btn-primary active">
-								<input type="radio" name="userBuilding" autocomplete="off" value="A" checked>A
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="B" checked>B
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="C" checked>C
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="D" checked>D
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="E" checked>E
-							</label>
-							<%-- <label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="F" checked>F
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="G" checked>G
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="H" checked>H
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="향토" checked>향토
-							</label>
-							<label class="btn btn-primary">
-								<input type="radio" name="userBuilding" autocomplete="off" value="글로벌" checked>글로벌
-							</label>--%>
-						</div>
+					<div class="form-group">
+						<label><input type="checkbox" class="form-control" placeholder="Building" name="userBuilding" 
+						onclick="doOpenCheck(this)" value="A">A</label>
+						<label><input type="checkbox" class="form-control" placeholder="Building" name="userBuilding"
+						onclick="doOpenCheck(this)" value="B">B</label>
+						<label><input type="checkbox" class="form-control" placeholder="Building" name="userBuilding"
+						onclick="doOpenCheck(this)" value="C">C</label>
+						<label><input type="checkbox" class="form-control" placeholder="Building" name="userBuilding"
+						onclick="doOpenCheck(this)" value="D">D</label>
+						<label><input type="checkbox" class="form-control" placeholder="Building" name="userBuilding"
+						onclick="doOpenCheck(this)" value="E">E</label>
 					</div>
 					<div class="form-group">
 						<input type="email" class="form-control" placeholder="E-mail" name="useEmail" maxlength="20">
@@ -96,6 +74,17 @@
 		</div>
 		<div class="col-lg-4"></div>
 	</div>
+	<script>
+			function doOpenCheck(chk){
+				let obj=document.getElementsByName("userGender");
+				for(let i=0;i<obj.length;i++){
+					if(obj[i]!=chk){
+						obj[i].checked=false;
+					}
+				}
+			}
+	
+	</script>
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="js/bootstrap.js"></script>
 </body>
