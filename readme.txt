@@ -15,7 +15,7 @@
 (프로젝트가 완성되었을 때의 시나리오)
 
 ★ 그러나 프로젝트 구현을 완성하지 못하였기 때문에, 다음과 같이 실행해주세요.
-1. Order_with_me -> WebContent -> login.jsp
+1. 이클립스에서 Order_with_me -> WebContent -> login.jsp 열기
 2. Run on Sever -> Tomcat v8.5 Server at localhost 선택
 3. 웹 브라우저에서 로그인 화면부터 발생하게 됩니다.
 
