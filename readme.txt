@@ -4,6 +4,10 @@
 ☆ 제출한 Readme.txt 파일에서 조금 더 구체적인 내용을 작성해보았습니다. 혹시 과제 확인하실 때 깃허브 주소에 방문해주셨다면, 아래에 적힌 더 자세한 내용을 참고해주세요 ☆
 * 깃허브에 올라와있는 파일들은 모두 과제 기한 내에 작성된 내용으로, 제출한 소스코드와 동일 시 하기 위하여 과제마감 이후에 바로 업데이트하였음을 알려드립니다.
 
+작성 파일 목록
+: src/main/java/user : User.java , UserDAO.java
+: WebContent : loginAction.jsp , login.jsp, joinAction.jsp, join.jsp, index.jsp
+
 1. JDK 설치와 이클립스 설치가 완료된 상태에서
 2. 같이 첨부한 Apache Tomcat v8.5 파일을 사용하여 본 프로젝트의 소스코드를 run 시킴
 3. 데이터베이스 관리를 위하여 MySQL을 사용하였음
