@@ -40,10 +40,7 @@ ID : gildong / PW: 123456789 / Name: 홍길동 / Building: A동 / Email: gildong
  ( 본 프로젝트에서는 기숙사 동이 A부터 E동까지만 있다고 가정한 후 구현을 진행하였음 )
 : 모든 항목을 알맞게 작성한 경우 -> main.jsp 화면으로 넘어감
 : 이미 존재하는 ID를 작성한 경우 -> " The ID already exists. " 메시지 발생 -> 다시 회원가입 화면
-: 입력하지 않은 항목이 있는 경우 -> " There are items that have not been entered. " 메시지 발생 -> 다시 회원가입 화면
--> 회원가입 과정에서 올바르게 입력하였음에도 "There are items that have not been entered" 메시지가 지속적으로 발생하는 오류를 확인하였으나,
-  수정을 하지는 못하였습니다.
-  
+: 입력하지 않은 항목이 있는 경우 -> " There are items that have not been entered. " 메시지 발생 -> 다시 회원가입 화면  
   
 4. 따라서 본 프로젝트는 회원가입까지 구현이 이루어졌다고 생각하시면 됩니다!
 
